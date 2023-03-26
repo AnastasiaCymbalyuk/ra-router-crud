@@ -1,0 +1,35 @@
+.box_msg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.msg {
+    padding: 10px;
+    background-color: rgb(160, 213, 190);
+    width: 300px;
+    min-height: 100px;
+    margin: 5px;
+}
+
+.link_post {
+    display: flex;
+    justify-content: center;
+}
+
+.form_post {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form_text {
+    width: 300px;
+    height: 100px;
+}
+
+.box_post_up {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

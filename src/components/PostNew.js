@@ -13,7 +13,6 @@ export default function PostNews () {
         }
         fetch(`http://localhost:7070/posts`, {
             method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ id: 0, content }),
         }).then(() => onClose());
     };

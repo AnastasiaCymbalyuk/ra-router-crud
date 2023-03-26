@@ -11,7 +11,7 @@ export default function HomePage() {
             {error && <div> {error} </div>}
   
             {data && !isLoading && (
-                <section>
+                <section className="box_msg">
                     {data.length < 1 ? <div>нет постов</div> : <Posts data={data} />}
                 </section>
             )}

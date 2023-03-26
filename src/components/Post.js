@@ -9,7 +9,7 @@ export default function Post({ post }) {
     };
 
     return (
-        <article onClick={onClick}>
+        <article className="msg" onClick={onClick}>
             <div>
                 <header>
                   <div>Имя Фамилия</div>

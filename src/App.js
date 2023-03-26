@@ -9,7 +9,7 @@ function App() {
     <div>
       <Router>
         <Link to="/posts/new">
-          <div>
+          <div className="link_post">
             <p>Создать пост</p>
           </div>
         </Link>
